@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: 每週健行
+  structure:
+    - type: space
+      key: family-hiking-route
+      title: 每週健行
+      path: /
+      default: true
+      content:
+        directory: ./
+        language: zh-TW
