@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+  <title id="title">坪頂古圳與大崎頭環線路線示意</title>
+  <desc id="desc">非比例示意：至善路三段370巷登山口，經田尾仔橋、三圳及清風亭，接大崎頭步道與梯田後回登山口。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L10,5 L0,10 z" fill="#18795a"/></marker>
+    <style>
+      text { font-family: sans-serif; fill: #25352e; }
+      .title { font-size: 30px; font-weight: 700; }
+      .sub { font-size: 17px; fill: #596a61; }
+      .label { font-size: 19px; font-weight: 600; }
+      .small { font-size: 15px; fill: #596a61; }
+      .route { fill: none; stroke: #18795a; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
+      .water { stroke: #55a9c7; stroke-width: 4; stroke-linecap: round; }
+      .node { fill: #fff; stroke: #18795a; stroke-width: 5; }
+    </style>
+  </defs>
+  <rect width="1000" height="560" rx="24" fill="#f4f7ef"/>
+  <path d="M0 120 Q180 20 360 115 T720 90 T1000 150 M0 470 Q210 390 390 480 T760 455 T1000 500" fill="none" stroke="#dce9d7" stroke-width="42" opacity=".8"/>
+  <text x="55" y="58" class="title">坪頂古圳 × 大崎頭環線</text>
+  <text x="57" y="88" class="sub">路線關係示意｜非比例、非導航圖</text>
+
+  <!-- Original schematic route, not traced from a third-party map -->
+  <path class="route" marker-end="url(#arrow)" d="M130 390 C210 360 260 300 320 280 C390 260 420 340 485 330 C550 320 545 210 620 195 C690 180 720 130 800 150 C875 170 865 245 825 290 C790 330 720 335 665 360 C600 390 525 435 440 430 C330 425 240 450 130 390"/>
+
+  <line x1="608" y1="226" x2="760" y2="226" class="water"/>
+  <line x1="624" y1="238" x2="775" y2="238" class="water" opacity=".75"/>
+  <line x1="650" y1="250" x2="785" y2="250" class="water" opacity=".55"/>
+  <text x="730" y="278" class="small">坪頂三圳</text>
+
+  <circle cx="130" cy="390" r="12" class="node"/><text x="54" y="435" class="label">起／終點</text><text x="54" y="459" class="small">至善路三段370巷</text>
+  <circle cx="320" cy="280" r="10" class="node"/><text x="260" y="245" class="label">田尾仔橋</text>
+  <circle cx="620" cy="195" r="10" class="node"/><text x="548" y="166" class="label">坪頂古圳</text>
+  <circle cx="800" cy="150" r="10" class="node"/><text x="812" y="142" class="label">清風亭</text>
+  <circle cx="665" cy="360" r="10" class="node"/><text x="665" y="397" class="label">大崎頭步道</text>
+  <circle cx="440" cy="430" r="10" class="node"/><text x="392" y="474" class="label">梯田</text>
+
+  <rect x="705" y="465" width="245" height="56" rx="14" fill="#e6f0e6"/>
+  <text x="727" y="490" class="small">約2.3公里環線</text>
+  <text x="727" y="511" class="small">以現場指標為準</text>
+</svg>

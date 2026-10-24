@@ -1,0 +1,32 @@
+# Private household notes and local-only data
+.private/
+共用筆記.private.md
+
+# Local Python environment and generated files
+.venv/
+__pycache__/
+*.py[cod]
+
+# OpenCode / agent-specific project configuration
+.opencode/
+opencode.jsonc
+AGENTS.md
+
+# Generated Word documents and editor lock files
+*.docx
+.~lock.*#
+
+# OS/editor clutter
+.DS_Store
+.idea/
+.vscode/
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Third-party route image kept locally; Markdown links to the original source
+每週行程/*/坪頂古圳-路線圖.jpg
