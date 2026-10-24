@@ -1,12 +1,11 @@
 $schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
-  title: 每週健行
+  title: ASGC Note
   structure:
     - type: space
-      key: family-hiking-route
-      title: 每週健行
-      path: /
+      key: space-1
+      title: ASGC Note
+      path: notes
       default: true
       content:
-        directory: ./
-        language: zh-TW
+        directory: ./notes
