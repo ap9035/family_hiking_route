@@ -4,8 +4,9 @@ site:
   structure:
     - type: space
       key: space-1
-      title: ASGC Note
+      title: 每週健行
       path: notes
       default: true
       content:
-        directory: ./notes
+        directory: ./
+        language: zh-TW
