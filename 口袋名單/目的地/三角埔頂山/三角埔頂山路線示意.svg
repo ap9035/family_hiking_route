@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" role="img" aria-labelledby="title desc">
+  <title id="title">三角埔頂山步道路線示意</title>
+  <desc id="desc">新北市軍人忠靈祠起登，經多福步道入口、涼亭及三福山至三角埔頂山，原路折返。非比例示意圖。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#2c7553"/></marker>
+    <style>
+      text{font-family:sans-serif;fill:#26372e}.title{font-size:29px;font-weight:700}.sub{font-size:16px;fill:#617168}.label{font-size:18px;font-weight:700}.detail{font-size:14px;fill:#617168}.route{stroke:#2c7553;stroke-width:8;stroke-linecap:round}.back{stroke:#829489;stroke-width:5;stroke-dasharray:10 9;stroke-linecap:round}.node{fill:#fff;stroke:#2c7553;stroke-width:5}
+    </style>
+  </defs>
+  <rect width="1000" height="440" rx="22" fill="#f4f7ef"/>
+  <path d="M0 120 Q170 30 330 120 T650 105 T1000 130 M0 360 Q190 290 380 360 T730 340 T1000 370" fill="none" stroke="#dce9d7" stroke-width="32"/>
+  <text x="48" y="54" class="title">三角埔頂山｜軍人忠靈祠往返</text>
+  <text x="50" y="82" class="sub">單程約1.7公里｜海拔285公尺｜非比例、非導航圖</text>
+  <path d="M105 200 H315 H570 H850" class="route" marker-end="url(#arrow)"/>
+  <circle cx="105" cy="200" r="12" class="node"/><circle cx="315" cy="200" r="12" class="node"/><circle cx="570" cy="200" r="12" class="node"/><circle cx="850" cy="200" r="12" class="node"/>
+  <path d="M850 236 H105" class="back" marker-end="url(#arrow)"/>
+  <text x="48" y="151" class="label">起／終點</text><text x="48" y="270" class="label">軍人忠靈祠</text><text x="48" y="292" class="detail">武器公園</text>
+  <text x="255" y="151" class="label">多福步道</text><text x="255" y="270" class="detail">登山口約0.2公里</text>
+  <text x="510" y="151" class="label">三福山</text><text x="502" y="270" class="detail">觀日亭、沿途涼亭</text>
+  <text x="790" y="151" class="label">三角埔頂山</text><text x="793" y="270" class="detail">285公尺｜三等三角點</text>
+  <text x="280" y="330" class="detail">全程約3.4公里（往返）｜步行約1小時40分，依路線資料</text>
+  <line x1="45" y1="380" x2="955" y2="380" stroke="#cbd8cc"/>
+  <text x="50" y="410" class="detail">往返路線概念示意；里程及時間以來源資料與現場狀況為準。</text>
+</svg>
