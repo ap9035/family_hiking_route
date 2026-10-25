@@ -7,6 +7,27 @@
   "scale_bar_m": 200,
   "route_source": "OpenStreetMap 忠勇山親山步道幾何；步道點位參考健行筆記",
   "attribution": "© OpenStreetMap contributors（ODbL）",
+  "print_map": {
+    "dtm_region": "臺北市",
+    "scale_denominator": 5000,
+    "grid_spacing_m": 500,
+    "map_width_mm": 277,
+    "map_height_mm": 165,
+    "top_margin_mm": 21,
+    "output_prefix": "忠勇山"
+  },
+  "compass_map": {
+    "dtm_regions": ["臺北市", "新北市"],
+    "observer": [25.0983421, 121.58519],
+    "observer_label": "忠勇山",
+    "title": "忠勇山｜周邊山峰方位判讀圖",
+    "scale_denominator": 50000,
+    "contour_interval_m": 20,
+    "map_height_mm": 143,
+    "grid_spacing_m": 1000,
+    "max_peaks": 14,
+    "output_prefix": "忠勇山"
+  },
   "route_segments": [
     {"way_id": 1253426998},
     {"way_id": 206134498},

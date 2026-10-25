@@ -1,0 +1,49 @@
+{
+  "title": "鷹仔尖（福隆山）｜步道往返",
+  "description": "沿 OSM 已標繪的福隆山步道及尖山步道支線呈現；至登頂支線的接線未有本次 GPX 核對，以虛線表示。",
+  "subtitle": "福隆山步道 → 凌雲禪寺一帶 → 尖山步道支線 → 鷹仔尖｜OSM 概略路線",
+  "bbox": [121.414, 25.115, 121.435, 25.132],
+  "output": "鷹仔尖實際地理底圖.svg",
+  "scale_bar_m": 500,
+  "route_source": "OpenStreetMap 步道圖徵；福隆山步道官方介紹及鷹仔尖地名作參考",
+  "attribution": "© OpenStreetMap contributors（ODbL）",
+  "print_map": {
+    "dtm_region": "新北市",
+    "center": [25.1245, 121.4272],
+    "scale_denominator": 10000,
+    "grid_spacing_m": 500,
+    "map_width_mm": 277,
+    "map_height_mm": 165,
+    "top_margin_mm": 21,
+    "output_prefix": "鷹仔尖"
+  },
+  "compass_map": {
+    "dtm_regions": ["新北市", "臺北市"],
+    "observer": [25.1263143, 121.4287136],
+    "observer_label": "鷹仔尖",
+    "title": "鷹仔尖｜周邊山峰方位判讀圖",
+    "scale_denominator": 50000,
+    "contour_interval_m": 20,
+    "map_height_mm": 143,
+    "grid_spacing_m": 1000,
+    "max_peaks": 14,
+    "output_prefix": "鷹仔尖"
+  },
+  "route_segments": [
+    {"way_id": 406215617},
+    {"way_id": 701755253},
+    {"way_id": 701755252},
+    {"points": [[25.122104, 121.427597], [25.123245, 121.426474]], "style": "approx"},
+    {"way_id": 415933794},
+    {"way_id": 1202822496},
+    {"way_id": 1202822495},
+    {"way_id": 1202822494},
+    {"points": [[25.127618, 121.425994], [25.127364, 121.428660]], "style": "approx"},
+    {"way_id": 222119350}
+  ],
+  "markers": [
+    {"coordinates": [25.118277, 121.430308], "label": "福隆山步道入口方向", "detail": "原路往返起點參考", "anchor": "end", "dx": -12, "dy": -16},
+    {"coordinates": [25.1275782, 121.4253861], "label": "凌雲禪寺", "detail": "步道銜接區域", "anchor": "end", "dx": -12, "dy": -16},
+    {"coordinates": [25.1263143, 121.4287136], "label": "鷹仔尖 434 m", "detail": "原路折返；岔路以現場為準", "anchor": "start", "dx": 14, "dy": -14}
+  ]
+}

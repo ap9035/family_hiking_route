@@ -8,6 +8,27 @@
   "route_source": "健行筆記三角埔頂山步道（ID 210）",
   "attribution": "© OpenStreetMap contributors（ODbL）",
   "map_info": ["單程約1.7 km", "往返約3.4 km"],
+  "print_map": {
+    "dtm_region": "新北市",
+    "scale_denominator": 10000,
+    "grid_spacing_m": 500,
+    "map_width_mm": 277,
+    "map_height_mm": 165,
+    "top_margin_mm": 21,
+    "output_prefix": "三角埔頂山"
+  },
+  "compass_map": {
+    "dtm_regions": ["新北市", "桃園市"],
+    "observer": [25.0055537, 121.4004939],
+    "observer_label": "三角埔頂山",
+    "title": "三角埔頂山｜周邊山峰方位判讀圖",
+    "scale_denominator": 50000,
+    "contour_interval_m": 20,
+    "map_height_mm": 143,
+    "grid_spacing_m": 1000,
+    "max_peaks": 14,
+    "output_prefix": "三角埔頂山"
+  },
   "route_segments": [
     {"way_id": 281280379},
     {"way_id": 746947497},

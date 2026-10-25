@@ -1,0 +1,49 @@
+{
+  "title": "牛港稜山｜觀音山遊客中心往返",
+  "description": "沿 OSM 已標繪步道呈現觀音山遊客中心至牛港稜山、賞鷹台方向路線；未核對的步道銜接以虛線表示。",
+  "subtitle": "觀音山遊客中心 → 出火號 → 牛港稜山 → 賞鷹台方向｜未持有 GPX，接線概略",
+  "bbox": [121.410, 25.126, 121.423, 25.134],
+  "output": "牛港稜山實際地理底圖.svg",
+  "scale_bar_m": 200,
+  "route_source": "OpenStreetMap 步道圖徵；官方步道文字及里程作地點參考",
+  "attribution": "© OpenStreetMap contributors（ODbL）",
+  "print_map": {
+    "dtm_region": "新北市",
+    "center": [25.1302, 121.4161],
+    "scale_denominator": 3000,
+    "scale_bar_m": 200,
+    "grid_spacing_m": 500,
+    "map_width_mm": 277,
+    "map_height_mm": 165,
+    "top_margin_mm": 21,
+    "output_prefix": "牛港稜山"
+  },
+  "compass_map": {
+    "dtm_regions": ["新北市", "臺北市"],
+    "observer": [25.1304103, 121.4150819],
+    "observer_label": "牛港稜山",
+    "title": "牛港稜山｜周邊山峰方位判讀圖",
+    "scale_denominator": 50000,
+    "contour_interval_m": 20,
+    "map_height_mm": 143,
+    "grid_spacing_m": 1000,
+    "max_peaks": 14,
+    "output_prefix": "牛港稜山"
+  },
+  "route_segments": [
+    {"points": [[25.129555, 121.418025], [25.1291662, 121.4171176]], "style": "approx"},
+    {"way_id": 700804868},
+    {"way_id": 701033632},
+    {"points": [[25.130265, 121.4153118], [25.1296784, 121.4155983]], "style": "approx"},
+    {"way_id": 700804864, "reverse": true},
+    {"points": [[25.1307033, 121.414924], [25.1307603, 121.414624]], "style": "approx"},
+    {"way_id": 700804865},
+    {"points": [[25.1309978, 121.4143362], [25.131103, 121.414265]], "style": "approx"},
+    {"way_id": 1203862992}
+  ],
+  "markers": [
+    {"coordinates": [25.129555, 121.418025], "label": "觀音山遊客中心", "detail": "起點", "anchor": "end", "dx": -12, "dy": -16},
+    {"coordinates": [25.1293255, 121.4158436], "label": "出火號", "detail": "觀景平台", "anchor": "end", "dx": -12, "dy": -14},
+    {"coordinates": [25.13095, 121.4144], "label": "牛港稜山方向", "detail": "稜線／賞鷹台方向；依現場指標核對", "anchor": "start", "dx": 14, "dy": -16}
+  ]
+}

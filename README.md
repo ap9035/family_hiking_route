@@ -19,4 +19,6 @@
 - 行程與目的地資料以 Markdown 為主；Word 文件為本機衍生檔，不納入公開版本。
 - 生日、住址及其他家庭個資只保存在本機私密筆記。
 - 路線圖標示為示意圖時，不應作為導航依據；以官方資料及現場指標為準。
-- 路線地圖可用 `python3 scripts/generate_osm_route_map.py <目的地目錄>/osm-map.json` 產生；OSM 資料會快取於 `.cache/`，需更新時加 `--refresh`。
+- 概要路線圖可用 `python3 scripts/generate_osm_route_map.py <目的地目錄>/osm-map.json` 產生；`python3 scripts/generate_hiking_maps.py <目的地目錄>/osm-map.json` 可一次產生概要圖與等高線圖。
+- 每個目的地可用 `python3 scripts/generate_contour_maps.py <目的地目錄>/osm-map.json` 產生一張含路線的 A4 等高線圖（PDF／SVG；需安裝 `rsvg-convert` 才會輸出 PDF）。以內政部公開 20 m 網格 DTM 計算 10 m 等高距，資料下載與 OSM 快取於 `.cache/`；需更新時加 `--refresh`。請注意 10 m 是等高距，不代表 10 m 地形解析度。
+- 山頂遠景判讀可用 `python3 scripts/generate_compass_map.py <目的地目錄>/osm-map.json` 產生較廣範圍方位圖；在設定檔 `compass_map.observer` 指定觀測點。圖上標記 OSM 登錄山峰，附真方位、磁方位及距離；磁偏角由 NOAA WMM 查詢並標明日期。山名不代表實際必然可見，仍受稜線、植被及天候影響。
