@@ -156,9 +156,11 @@ while index < len(lines):
 doc.save(out)
 check = Document(out)
 assert any("坪頂古圳" in p.text for p in check.paragraphs)
-assert len(check.inline_shapes) == 1
+assert len(check.inline_shapes) == 4
 assert len(check.tables) == 1 and len(check.tables[0].rows) == 5
 assert any("幼兒活動日年齡（本機私密 Word" in p.text for p in check.paragraphs)
 assert any(rel.reltype == RT.HYPERLINK and "maps.app.goo.gl" in rel.target_ref for rel in check.part.rels.values())
 assert any(rel.reltype == RT.HYPERLINK and "ymsnp.gov.tw" in rel.target_ref for rel in check.part.rels.values())
+assert any(rel.reltype == RT.HYPERLINK and "坪頂古圳_等高線圖.pdf" in rel.target_ref for rel in check.part.rels.values())
+assert any(rel.reltype == RT.HYPERLINK and "坪頂古圳_山頂方位圖.pdf" in rel.target_ref for rel in check.part.rels.values())
 print(f"已產生並驗證：{out} ({out.stat().st_size:,} bytes)")

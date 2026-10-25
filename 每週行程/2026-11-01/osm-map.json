@@ -1,0 +1,61 @@
+{
+  "title": "坪頂古圳＋大崎頭環線",
+  "description": "沿 OSM 已標繪步道繪製坪頂古圳與大崎頭環線；未有本次 GPX 核對的連接段以虛線標示。",
+  "subtitle": "至善路三段370巷 → 大崎頭步道／清風亭 → 坪頂三圳 → 原路線環返",
+  "bbox": [121.575, 25.125, 121.600, 25.145],
+  "output": "坪頂古圳實際地理底圖.svg",
+  "scale_bar_m": 500,
+  "route_source": "OpenStreetMap 已標繪步道；既有環線示意圖與官方地名作參考，無本次 GPX",
+  "attribution": "© OpenStreetMap contributors（ODbL）",
+  "print_map": {
+    "dtm_region": "臺北市",
+    "center": [25.1336, 121.5854],
+    "scale_denominator": 5000,
+    "scale_bar_m": 200,
+    "grid_spacing_m": 500,
+    "map_width_mm": 277,
+    "map_height_mm": 167,
+    "top_margin_mm": 20,
+    "output_prefix": "坪頂古圳"
+  },
+  "compass_map": {
+    "dtm_regions": ["臺北市", "新北市"],
+    "observer": [25.1345623, 121.5830143],
+    "observer_label": "清風亭觀測點",
+    "title": "坪頂古圳／大崎頭環線｜清風亭周邊山峰方位判讀圖",
+    "scale_denominator": 50000,
+    "contour_interval_m": 20,
+    "map_height_mm": 143,
+    "grid_spacing_m": 1000,
+    "max_peaks": 12,
+    "min_peak_distance_km": 2.5,
+    "output_prefix": "坪頂古圳"
+  },
+  "route_segments": [
+    {"way_id": 502560356},
+    {"way_id": 512580516},
+    {"way_id": 490674484},
+    {"way_id": 202367259, "reverse": true},
+    {"way_id": 512476821, "reverse": true},
+    {"way_id": 1198536992},
+    {"way_id": 1198536989},
+    {"way_id": 1198536993},
+    {"way_id": 1198536995},
+    {"way_id": 512476822},
+    {"points": [[25.1344507, 121.5834066], [25.1345623, 121.5830143], [25.1345052, 121.5831359]], "style": "approx"},
+    {"way_id": 943536790, "reverse": true},
+    {"way_id": 263931269, "reverse": true},
+    {"way_id": 943536789},
+    {"way_id": 563561679, "reverse": true},
+    {"way_id": 563561680, "reverse": true},
+    {"way_id": 563561681, "reverse": true},
+    {"points": [[25.130217, 121.5864364], [25.1305826, 121.5866248], [25.1308744, 121.5868067], [25.1309942, 121.5868644], [25.131226, 121.5869035], [25.1315816, 121.5869427], [25.131815, 121.5869064], [25.1320123, 121.5868905], [25.1322294, 121.586873], [25.1324814, 121.5868652], [25.1327534, 121.5868111], [25.1331655, 121.5868419], [25.1333539, 121.5868758], [25.1335834, 121.5869151], [25.133833, 121.5868638], [25.1339562, 121.5868349], [25.1340633, 121.5867997]], "style": "approx"}
+  ],
+  "markers": [
+    {"coordinates": [25.1340633, 121.5867997], "label": "至善路370巷登山口", "detail": "路線起／終點", "anchor": "end", "dx": -12, "dy": -14},
+    {"coordinates": [25.1302287, 121.5863985], "label": "大崎頭步道入口", "detail": "石階上坡", "anchor": "end", "dx": -10, "dy": 26},
+    {"coordinates": [25.1345623, 121.5830143], "label": "清風亭", "detail": "環線銜接點", "anchor": "end", "dx": -10, "dy": -16},
+    {"coordinates": [25.1347063, 121.5863337], "label": "田尾仔橋", "detail": "水流及橋面依現場核對", "anchor": "start", "dx": 12, "dy": -12},
+    {"coordinates": [25.1365985, 121.5856492], "label": "桃仔腳橋", "detail": "水流及橋面依現場核對", "anchor": "start", "dx": 12, "dy": 22}
+  ]
+}
