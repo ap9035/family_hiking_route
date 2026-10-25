@@ -1,0 +1,31 @@
+{
+  "title": "三角埔頂山｜實際地理底圖路線圖",
+  "description": "以 OpenStreetMap 道路、建物及多福步道幾何繪製；軍人忠靈祠至三角埔頂山往返。起登接線為概略示意，非導航圖。",
+  "subtitle": "OSM 道路／步道幾何｜軍人忠靈祠起登，經多福步道至三角埔頂山往返",
+  "bbox": [121.3985, 25.0045, 121.412, 25.0158],
+  "output": "三角埔頂山路線示意.svg",
+  "scale_bar_m": 500,
+  "route_source": "健行筆記三角埔頂山步道（ID 210）",
+  "attribution": "© OpenStreetMap contributors（ODbL）",
+  "map_info": ["單程約1.7 km", "往返約3.4 km"],
+  "route_segments": [
+    {"way_id": 281280379},
+    {"way_id": 746947497},
+    {"way_id": 720961332},
+    {"points": [[25.0056712, 121.401485], [25.0055537, 121.4004939]], "style": "approx"}
+  ],
+  "connectors": [
+    {"points": [[25.01345, 121.40925], [25.0124768, 121.4094426]]}
+  ],
+  "markers": [
+    {"coordinates": [25.01345, 121.40925], "label": "新北市軍人忠靈祠", "detail": "起點｜武器公園", "anchor": "end"},
+    {"coordinates": [25.0124768, 121.4094426], "label": "多福步道入口", "detail": "主步道起點", "anchor": "start"},
+    {"coordinates": [25.009726, 121.4071], "label": "多福亭", "detail": "沿途休息點", "anchor": "end"},
+    {"coordinates": [25.0076819, 121.4046423], "label": "三福山／觀日亭", "detail": "約0.9 km", "anchor": "end"},
+    {"coordinates": [25.0055537, 121.4004939], "label": "三角埔頂山 285 m", "detail": "終點｜原路折返", "anchor": "start", "dx": 12, "dy": -14}
+  ],
+  "map_labels": [
+    {"coordinates": [25.0138, 121.4100], "text": "忠義街", "dy": -7},
+    {"coordinates": [25.0087, 121.4068], "text": "多福步道", "dy": -8}
+  ]
+}

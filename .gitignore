@@ -4,6 +4,7 @@
 
 # Local Python environment and generated files
 .venv/
+.cache/
 __pycache__/
 *.py[cod]
 

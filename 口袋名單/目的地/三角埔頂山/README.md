@@ -15,7 +15,7 @@
 ## 路線圖與分段
 ![三角埔頂山路線示意圖](三角埔頂山路線示意.svg)
 
-底圖依 OpenStreetMap 的道路、建物與步道資料按地理座標繪製；紅線沿 OSM 已標繪步徑，忠靈祠至步道口的接線依公開里程概略表示，非GPX軌跡。資料來源：[OpenStreetMap contributors](https://www.openstreetmap.org/copyright)（ODbL，資料擷取日2026-10-25）。仍請依現場步道指標行走。
+地圖資料來源：[OpenStreetMap contributors](https://www.openstreetmap.org/copyright)（ODbL）。
 
 - [在 OpenStreetMap 查看實際地圖](https://www.openstreetmap.org/#map=16/25.0101/121.40525)
 

@@ -19,3 +19,4 @@
 - 行程與目的地資料以 Markdown 為主；Word 文件為本機衍生檔，不納入公開版本。
 - 生日、住址及其他家庭個資只保存在本機私密筆記。
 - 路線圖標示為示意圖時，不應作為導航依據；以官方資料及現場指標為準。
+- 路線地圖可用 `python3 scripts/generate_osm_route_map.py <目的地目錄>/osm-map.json` 產生；OSM 資料會快取於 `.cache/`，需更新時加 `--refresh`。

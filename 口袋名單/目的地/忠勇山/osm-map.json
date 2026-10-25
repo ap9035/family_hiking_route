@@ -1,0 +1,31 @@
+{
+  "title": "忠勇山｜碧山巖停車場起登地圖",
+  "description": "OpenStreetMap實際地理底圖及忠勇山親山步道路線，碧山巖停車場至忠勇山山頂往返。",
+  "subtitle": "碧山巖停車場 → 忠勇山親山步道 → 忠勇山銅像／拓印臺 → 原路往返",
+  "bbox": [121.5825, 25.0960, 121.5905, 25.1005],
+  "output": "忠勇山路線示意.svg",
+  "scale_bar_m": 200,
+  "route_source": "OpenStreetMap 忠勇山親山步道幾何；步道點位參考健行筆記",
+  "attribution": "© OpenStreetMap contributors（ODbL）",
+  "route_segments": [
+    {"way_id": 1253426998},
+    {"way_id": 206134498},
+    {"way_id": 1253426994},
+    {"way_id": 630196829},
+    {"way_id": 1253671242},
+    {"points": [[25.0983327, 121.5850963], [25.0983421, 121.58519]], "style": "approx"}
+  ],
+  "connectors": [
+    {"points": [[25.098993, 121.5872182], [25.0971752, 121.58797]]}
+  ],
+  "markers": [
+    {"coordinates": [25.098993, 121.5872182], "label": "碧山巖停車場", "detail": "起點", "anchor": "end", "dx": -10, "dy": -12},
+    {"coordinates": [25.0971752, 121.58797], "label": "忠勇山步道入口", "detail": "石階路線", "anchor": "start", "dx": 14, "dy": -16},
+    {"coordinates": [25.09715, 121.58762], "label": "碧山巖", "anchor": "end", "dx": -18, "dy": 38},
+    {"coordinates": [25.0983421, 121.58519], "label": "忠勇山山頂", "detail": "銅像／拓印臺", "anchor": "end", "dx": -10, "dy": -12}
+  ],
+  "map_labels": [
+    {"coordinates": [25.09843, 121.58635], "text": "忠勇山親山步道", "dy": -5},
+    {"coordinates": [25.09675, 121.58825], "text": "碧山路", "dy": 0}
+  ]
+}
