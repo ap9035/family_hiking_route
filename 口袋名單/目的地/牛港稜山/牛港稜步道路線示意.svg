@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="440" viewBox="0 0 1100 440" role="img" aria-labelledby="title desc">
+  <title id="title">牛港稜步道往返路線示意</title>
+  <desc id="desc">從觀音山遊客中心石雕公園起登，經出火號觀景平台、牛港稜山469公尺，前往飛機殘骸與賞鷹台後原路折返。非比例導航圖。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#267653"/></marker>
+    <marker id="back" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#718678"/></marker>
+    <style>
+      text{font-family:sans-serif;fill:#25352d}.title{font-size:30px;font-weight:700}.sub{font-size:17px;fill:#5e6e65}.node{fill:#fff;stroke:#267653;stroke-width:5}.route{stroke:#267653;stroke-width:8;stroke-linecap:round}.return{stroke:#718678;stroke-width:5;stroke-dasharray:12 10;fill:none;stroke-linecap:round}.label{font-size:19px;font-weight:700}.detail{font-size:15px;fill:#5e6e65}
+    </style>
+  </defs>
+  <rect width="1100" height="440" rx="24" fill="#f4f7ef"/>
+  <path d="M30 125 Q160 35 285 122 T550 113 T820 118 T1070 90 M30 350 Q180 290 330 350 T650 330 T1070 360" fill="none" stroke="#dce9d7" stroke-width="34"/>
+  <text x="52" y="55" class="title">牛港稜山｜觀音山遊客中心往返</text>
+  <text x="54" y="84" class="sub">依官方步道文字與路標地名自繪｜非比例圖、非導航圖</text>
+
+  <path d="M120 205 H365 H620 H900" class="route" marker-end="url(#arrow)"/>
+  <circle cx="120" cy="205" r="13" class="node"/>
+  <circle cx="365" cy="205" r="13" class="node"/>
+  <circle cx="620" cy="205" r="13" class="node"/>
+  <circle cx="900" cy="205" r="13" class="node"/>
+  <path d="M900 245 H120" class="return" marker-end="url(#back)"/>
+
+  <text x="55" y="154" class="label">起點</text>
+  <text x="55" y="265" class="label">觀音山遊客中心</text>
+  <text x="55" y="289" class="detail">石雕公園「龍的傳人」旁入口</text>
+
+  <text x="285" y="154" class="label">出火號觀景平台</text>
+  <text x="300" y="265" class="detail">約500公尺上坡段</text>
+
+  <text x="540" y="154" class="label">牛港稜山</text>
+  <text x="565" y="265" class="detail">海拔469公尺｜基石</text>
+
+  <text x="796" y="154" class="label">步道終點景點</text>
+  <text x="780" y="265" class="detail">飛機殘骸、紀念碑、賞鷹台</text>
+  <text x="370" y="330" class="detail">原路折返｜官方步道全長約753公尺；分段里程為概略值</text>
+  <text x="370" y="357" class="detail">往返約1.5公里（依官方全長換算，非GPX實測）</text>
+  <rect x="43" y="385" width="1012" height="1" fill="#cbd8cc"/>
+  <text x="54" y="414" class="detail">前段坡度較陡；岔路及實際可通行範圍依現場指標、封閉公告為準。</text>
+</svg>
