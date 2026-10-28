@@ -12,6 +12,7 @@ from datetime import date
 from html import escape
 import hashlib
 import json
+import math
 from pathlib import Path
 import urllib.parse
 import urllib.request
@@ -104,6 +105,21 @@ def route_points(segment, ways):
         points = way["points"][:]
         if segment.get("reverse"):
             points.reverse()
+        if "start_coordinates" in segment or "end_coordinates" in segment:
+            def nearest_index(target):
+                lat, lon = map(float, target)
+                return min(
+                    range(len(points)),
+                    key=lambda i: (points[i][0] - lat) ** 2
+                    + ((points[i][1] - lon) * math.cos(math.radians(lat))) ** 2,
+                )
+
+            start = nearest_index(segment["start_coordinates"]) if "start_coordinates" in segment else 0
+            end = nearest_index(segment["end_coordinates"]) if "end_coordinates" in segment else len(points) - 1
+            if start <= end:
+                points = points[start : end + 1]
+            else:
+                points = list(reversed(points[end : start + 1]))
         return points
     return [tuple(map(float, point)) for point in segment.get("points", [])]
 

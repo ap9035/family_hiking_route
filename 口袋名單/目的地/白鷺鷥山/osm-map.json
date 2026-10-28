@@ -1,0 +1,42 @@
+{
+  "title": "白鷺鷥山｜大湖公園側往返路線",
+  "description": "沿 OpenStreetMap 已標繪的白鷺鷥山親山步道，由大湖公園側登山口往返山頂；非GPX實測導航圖。",
+  "subtitle": "大湖公園側登山口 → 白鷺鷥山143 m → 原路折返",
+  "bbox": [121.6015, 25.0772, 121.6075, 25.0800],
+  "output": "白鷺鷥山實際地理底圖.svg",
+  "scale_bar_m": 200,
+  "route_source": "OpenStreetMap 白鷺鷥山親山步道圖徵；山頂位置依 OSM natural=peak 點位",
+  "attribution": "© OpenStreetMap contributors（ODbL）",
+  "print_map": {
+    "dtm_region": "臺北市",
+    "center": [25.0784251, 121.6040929],
+    "scale_denominator": 2000,
+    "scale_bar_m": 100,
+    "grid_spacing_m": 100,
+    "map_width_mm": 277,
+    "map_height_mm": 165,
+    "top_margin_mm": 21,
+    "output_prefix": "白鷺鷥山"
+  },
+  "compass_map": {
+    "dtm_regions": ["臺北市", "新北市"],
+    "observer": [25.0784251, 121.6040929],
+    "observer_label": "白鷺鷥山143 m",
+    "title": "白鷺鷥山｜周邊山峰方位判讀圖",
+    "scale_denominator": 50000,
+    "contour_interval_m": 20,
+    "map_height_mm": 143,
+    "grid_spacing_m": 1000,
+    "max_peaks": 14,
+    "min_peak_distance_km": 2.5,
+    "output_prefix": "白鷺鷥山"
+  },
+  "route_segments": [
+    {"way_id": 585262496, "start_coordinates": [25.0782767, 121.6063776], "end_coordinates": [25.0784251, 121.6040929]},
+    {"points": [[25.0784419, 121.6040541], [25.0784251, 121.6040929]], "style": "approx"}
+  ],
+  "markers": [
+    {"coordinates": [25.0782767, 121.6063776], "label": "白鷺鷥山東側步道口", "detail": "大湖公園側；入口依現場指標", "anchor": "start", "dx": 14, "dy": -18},
+    {"coordinates": [25.0784251, 121.6040929], "label": "白鷺鷥山143 m", "detail": "山頂標示點／原路折返", "anchor": "end", "dx": -14, "dy": -14}
+  ]
+}
