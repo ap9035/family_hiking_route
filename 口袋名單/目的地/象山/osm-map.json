@@ -1,0 +1,23 @@
+{
+  "title": "象山｜顏子廟登山口與親山步道",
+  "description": "象山親山步道地圖，沿OSM已標繪步道與接線示意，現地請依官方標誌及開放狀況行走。",
+  "subtitle": "顏子廟登山口 → 象山親山步道 → 象山周邊觀景點 → 原路折返",
+  "bbox": [121.568, 25.024, 121.580, 25.034],
+  "output": "象山實際地理底圖.svg",
+  "scale_bar_m": 200,
+  "route_source": "OpenStreetMap 象山親山步道及顏子廟登山口圖徵；未持有GPX，接線依已標繪步道判讀",
+  "attribution": "© OpenStreetMap contributors（ODbL）",
+  "print_map": {"dtm_region": "臺北市", "center": [25.028, 121.574], "scale_denominator": 5000, "grid_spacing_m": 250, "map_width_mm": 277, "map_height_mm": 165, "top_margin_mm": 21, "output_prefix": "象山"},
+  "compass_map": {"dtm_regions": ["臺北市", "新北市"], "observer": [25.0265411, 121.575542], "observer_label": "象山", "title": "象山｜周邊山峰方位判讀圖", "scale_denominator": 50000, "contour_interval_m": 20, "map_height_mm": 143, "grid_spacing_m": 1000, "max_peaks": 14, "output_prefix": "象山"},
+  "route_segments": [
+    {"way_id": 1341564327},
+    {"way_id": 1341564328},
+    {"way_id": 1341564328, "reverse": true},
+    {"way_id": 1341564327, "reverse": true}
+  ],
+  "connectors": [{"points": [[25.0319149, 121.57718], [25.0308718, 121.5769214], [25.0297898, 121.5767462], [25.0289909, 121.5770144], [25.0281811, 121.5753404], [25.0270825, 121.5751696], [25.0265411, 121.575542]], "label": "概略接線"}],
+  "markers": [
+    {"coordinates": [25.032182, 121.576001], "label": "顏子廟登山口", "detail": "步行接近捷運象山站", "anchor": "end", "dx": -12, "dy": -15},
+    {"coordinates": [25.0265411, 121.575542], "label": "象山", "detail": "山頂標示點／視現場狀況折返", "anchor": "start", "dx": 12, "dy": -15}
+  ]
+}
