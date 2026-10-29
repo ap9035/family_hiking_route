@@ -1,0 +1,21 @@
+{
+  "title": "虎山溪步道｜慈惠堂旁林溪步徑往返",
+  "description": "由松山慈惠堂登山口沿虎山自然步道至溪谷段往返，僅依OSM已標繪步道呈現。",
+  "subtitle": "慈惠堂登山口 → 虎山溪／林蔭步徑 → 建議折返點 → 原路返回",
+  "bbox": [121.582, 25.029, 121.593, 25.038],
+  "output": "虎山溪步道實際地理底圖.svg",
+  "scale_bar_m": 200,
+  "route_source": "OpenStreetMap 虎山自然步道way 136977229；未持有GPX，步道實況以現場指標為準",
+  "attribution": "© OpenStreetMap contributors（ODbL）",
+  "print_map": {"dtm_region": "臺北市", "center": [25.034, 121.588], "scale_denominator": 5000, "grid_spacing_m": 250, "map_width_mm": 277, "map_height_mm": 165, "top_margin_mm": 21, "output_prefix": "虎山溪步道"},
+  "compass_map": {"dtm_regions": ["臺北市", "新北市"], "observer": [25.0313013, 121.5836136], "observer_label": "虎山峰", "title": "虎山溪步道｜周邊山峰方位判讀圖", "scale_denominator": 50000, "contour_interval_m": 20, "map_height_mm": 143, "grid_spacing_m": 1000, "max_peaks": 14, "output_prefix": "虎山溪步道"},
+  "route_segments": [
+    {"way_id": 136977229},
+    {"way_id": 136977229, "reverse": true}
+  ],
+  "markers": [
+    {"coordinates": [25.0363472, 121.5874776], "label": "慈惠堂登山口", "detail": "虎山步道入口", "anchor": "end", "dx": -12, "dy": -14},
+    {"coordinates": [25.0321647, 121.5909534], "label": "溪谷段折返點", "detail": "依天候及體力決定", "anchor": "start", "dx": 12, "dy": -14},
+    {"coordinates": [25.0313013, 121.5836136], "label": "虎山峰", "detail": "非本圖往返路線終點", "anchor": "end", "dx": -12, "dy": 18}
+  ]
+}
