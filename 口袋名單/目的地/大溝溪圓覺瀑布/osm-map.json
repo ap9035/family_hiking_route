@@ -1,0 +1,32 @@
+{
+  "title": "大溝溪與圓覺瀑布｜生態園區往返",
+  "description": "由大溝溪生態治水園區循溪畔及圓覺寺步道至圓覺瀑布往返；部分連接依圖資以概略線呈現。",
+  "subtitle": "大溝溪生態治水園區 → 溪畔步道 → 圓覺寺步道 → 圓覺瀑布 → 原路折返",
+  "bbox": [121.588, 25.087, 121.600, 25.099],
+  "output": "大溝溪圓覺瀑布實際地理底圖.svg",
+  "scale_bar_m": 200,
+  "route_source": "OpenStreetMap 圓覺寺步道way 183430462及周邊步徑；園區至已標繪步道的接線為概略，非GPX導航",
+  "attribution": "© OpenStreetMap contributors（ODbL）",
+  "print_map": {"dtm_region": "臺北市", "center": [25.0934, 121.5948], "scale_denominator": 5000, "grid_spacing_m": 250, "map_width_mm": 277, "map_height_mm": 165, "top_margin_mm": 21, "output_prefix": "大溝溪圓覺瀑布"},
+  "compass_map": {"dtm_regions": ["臺北市", "新北市"], "observer": [25.0975279, 121.5946001], "observer_label": "圓覺瀑布", "title": "圓覺瀑布｜周邊山峰方位判讀圖", "scale_denominator": 50000, "contour_interval_m": 20, "map_height_mm": 143, "grid_spacing_m": 1000, "max_peaks": 14, "output_prefix": "大溝溪圓覺瀑布"},
+  "route_segments": [
+    {"points": [[25.0886548, 121.5985947], [25.0926629, 121.596273]], "style": "approx"},
+    {"way_id": 183430462},
+    {"way_id": 1184038787},
+    {"way_id": 1184038786},
+    {"way_id": 713913733, "reverse": true},
+    {"way_id": 713913731, "reverse": true},
+    {"points": [[25.0975331, 121.5943423], [25.0975279, 121.5946001]], "style": "approx"},
+    {"points": [[25.0975279, 121.5946001], [25.0975331, 121.5943423]], "style": "approx"},
+    {"way_id": 713913731},
+    {"way_id": 713913733},
+    {"way_id": 1184038786, "reverse": true},
+    {"way_id": 1184038787, "reverse": true},
+    {"way_id": 183430462, "reverse": true},
+    {"points": [[25.0926629, 121.596273], [25.0886548, 121.5985947]], "style": "approx"}
+  ],
+  "markers": [
+    {"coordinates": [25.0886548, 121.5985947], "label": "大溝溪生態治水園區", "detail": "平緩溪畔步道起點", "anchor": "end", "dx": -12, "dy": -14},
+    {"coordinates": [25.0975279, 121.5946001], "label": "圓覺瀑布", "detail": "原路折返；勿靠近濕滑岩面", "anchor": "start", "dx": 12, "dy": -14}
+  ]
+}
