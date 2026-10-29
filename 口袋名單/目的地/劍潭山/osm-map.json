@@ -1,0 +1,22 @@
+{
+  "title": "劍潭山｜北側步道與老地方往返示意",
+  "description": "劍潭山親山步道局部路線地圖；注意OSM資料含施工封閉標記，路線須依現場公告調整。",
+  "subtitle": "劍潭山親山步道入口 → 已標繪步道 → 原路折返（避開封閉段）",
+  "bbox": [121.523, 25.079, 121.539, 25.092],
+  "output": "劍潭山實際地理底圖.svg",
+  "scale_bar_m": 200,
+  "route_source": "OpenStreetMap 劍潭山步道圖徵；本圖為避開OSM標示封閉區的局部往返示意，不提供精確導航",
+  "attribution": "© OpenStreetMap contributors（ODbL）",
+  "print_map": {"dtm_region": "臺北市", "center": [25.085, 121.531], "scale_denominator": 5000, "grid_spacing_m": 250, "map_width_mm": 277, "map_height_mm": 165, "top_margin_mm": 21, "output_prefix": "劍潭山"},
+  "compass_map": {"dtm_regions": ["臺北市", "新北市"], "observer": [25.0842687, 121.5293056], "observer_label": "劍潭山", "title": "劍潭山｜周邊山峰方位判讀圖", "scale_denominator": 50000, "contour_interval_m": 20, "map_height_mm": 143, "grid_spacing_m": 1000, "max_peaks": 14, "output_prefix": "劍潭山"},
+  "route_segments": [
+    {"way_id": 630196799},
+    {"way_id": 218759342, "reverse": true},
+    {"way_id": 630196799, "reverse": true}
+  ],
+  "markers": [
+    {"coordinates": [25.0847672, 121.5303284], "label": "步道接續點", "detail": "以現場指標為準", "anchor": "end", "dx": -12, "dy": -16},
+    {"coordinates": [25.0829392, 121.5290843], "label": "建議折返區", "detail": "避開封閉路段", "anchor": "start", "dx": 12, "dy": -14},
+    {"coordinates": [25.0842687, 121.5293056], "label": "劍潭山", "detail": "山頂標示點", "anchor": "start", "dx": 12, "dy": 24}
+  ]
+}
