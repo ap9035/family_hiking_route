@@ -1,0 +1,21 @@
+{
+  "title": "仙跡岩｜景興國小友善支線往返",
+  "description": "景興國小後方景興支線路線圖，僅依OSM已標繪步道繪製，未經GPX核對。",
+  "subtitle": "景興國小登山口 → 景興支線觀景平台方向 → 原路折返",
+  "bbox": [121.5465, 24.9928, 121.5520, 24.9965],
+  "output": "仙跡岩景興支線實際地理底圖.svg",
+  "scale_bar_m": 100,
+  "route_source": "OpenStreetMap 景興國小支線way 420661175；路線終點依圖徵端點標示，非GPX實測",
+  "attribution": "© OpenStreetMap contributors（ODbL）",
+  "print_map": {"dtm_region": "臺北市", "center": [24.9945, 121.5495], "scale_denominator": 3000, "grid_spacing_m": 100, "map_width_mm": 277, "map_height_mm": 165, "top_margin_mm": 21, "output_prefix": "仙跡岩景興支線"},
+  "compass_map": {"dtm_regions": ["臺北市", "新北市"], "observer": [24.9924782, 121.5481526], "observer_label": "仙跡岩", "title": "仙跡岩｜周邊山峰方位判讀圖", "scale_denominator": 50000, "contour_interval_m": 20, "map_height_mm": 143, "grid_spacing_m": 1000, "max_peaks": 14, "output_prefix": "仙跡岩景興支線"},
+  "route_segments": [
+    {"way_id": 420661175},
+    {"way_id": 420661175, "reverse": true}
+  ],
+  "markers": [
+    {"coordinates": [24.9954434, 121.549263], "label": "景興國小登山口", "detail": "入口依現場指標", "anchor": "end", "dx": -12, "dy": -15},
+    {"coordinates": [24.9937303, 121.5505523], "label": "景興支線折返方向", "detail": "依開放狀態及體力決定折返", "anchor": "start", "dx": 12, "dy": -14},
+    {"coordinates": [24.9924782, 121.5481526], "label": "仙跡岩山頂", "detail": "山頂位置不在本支線建議行程內", "anchor": "end", "dx": -12, "dy": -12}
+  ]
+}
