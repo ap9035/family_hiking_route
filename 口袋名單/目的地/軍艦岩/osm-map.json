@@ -1,0 +1,27 @@
+{
+  "title": "軍艦岩｜陽明大學登山口往返",
+  "description": "軍艦岩親山步道由陽明大學端登山口往返山頂；岩面段需特別注意風勢與濕滑。",
+  "subtitle": "陽明大學登山口 → 軍艦岩步道 → 軍艦岩 → 原路折返",
+  "bbox": [121.514, 25.123, 121.520, 25.128],
+  "output": "軍艦岩實際地理底圖.svg",
+  "scale_bar_m": 100,
+  "route_source": "OpenStreetMap 軍艦岩親山步道已標繪way；岩頂短接線以概略虛線表示，非GPX導航",
+  "attribution": "© OpenStreetMap contributors（ODbL）",
+  "print_map": {"dtm_region": "臺北市", "center": [25.1255, 121.5178], "scale_denominator": 3000, "grid_spacing_m": 100, "map_width_mm": 277, "map_height_mm": 165, "top_margin_mm": 21, "output_prefix": "軍艦岩"},
+  "compass_map": {"dtm_regions": ["臺北市", "新北市"], "observer": [25.1273081, 121.5187189], "observer_label": "軍艦岩", "title": "軍艦岩｜周邊山峰方位判讀圖", "scale_denominator": 50000, "contour_interval_m": 20, "map_height_mm": 143, "grid_spacing_m": 1000, "max_peaks": 14, "output_prefix": "軍艦岩"},
+  "route_segments": [
+    {"way_id": 423064739},
+    {"way_id": 423064738},
+    {"way_id": 383992352},
+    {"way_id": 1155147043},
+    {"points": [[25.1272917, 121.5187835], [25.1273081, 121.5187189]], "style": "approx"},
+    {"way_id": 1155147043, "reverse": true},
+    {"way_id": 383992352, "reverse": true},
+    {"way_id": 423064738, "reverse": true},
+    {"way_id": 423064739, "reverse": true}
+  ],
+  "markers": [
+    {"coordinates": [25.1236954, 121.5172681], "label": "陽明大學登山口", "detail": "校園依規定通行", "anchor": "end", "dx": -12, "dy": -15},
+    {"coordinates": [25.1273081, 121.5187189], "label": "軍艦岩", "detail": "岩頂風大；勿靠近邊緣", "anchor": "start", "dx": 12, "dy": -15}
+  ]
+}
