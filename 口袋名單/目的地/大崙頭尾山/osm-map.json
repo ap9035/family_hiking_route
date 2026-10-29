@@ -1,0 +1,22 @@
+{
+  "title": "大崙頭尾山｜大崙尾山步道親子往返",
+  "description": "大崙尾山步道由中社路登山口至大崙尾山頂往返，沿OSM已標繪步道；非GPX導航軌跡。",
+  "subtitle": "中社路登山口 → 大崙尾山步道 → 大崙尾山 → 原路折返",
+  "bbox": [121.570, 25.100, 121.580, 25.108],
+  "output": "大崙頭尾山實際地理底圖.svg",
+  "scale_bar_m": 200,
+  "route_source": "OpenStreetMap 大崙尾山步道way 559737524、136504969；中社路入口為近似標記",
+  "attribution": "© OpenStreetMap contributors（ODbL）",
+  "print_map": {"dtm_region": "臺北市", "center": [25.104, 121.575], "scale_denominator": 5000, "grid_spacing_m": 250, "map_width_mm": 277, "map_height_mm": 165, "top_margin_mm": 21, "output_prefix": "大崙頭尾山"},
+  "compass_map": {"dtm_regions": ["臺北市", "新北市"], "observer": [25.1063845, 121.5735185], "observer_label": "大崙尾山", "title": "大崙頭尾山｜周邊山峰方位判讀圖", "scale_denominator": 50000, "contour_interval_m": 20, "map_height_mm": 143, "grid_spacing_m": 1000, "max_peaks": 14, "output_prefix": "大崙頭尾山"},
+  "route_segments": [
+    {"way_id": 559737524},
+    {"way_id": 136504969},
+    {"way_id": 136504969, "reverse": true},
+    {"way_id": 559737524, "reverse": true}
+  ],
+  "markers": [
+    {"coordinates": [25.1020643, 121.5730192], "label": "中社路登山口", "detail": "入口依現場指標核對", "anchor": "end", "dx": -12, "dy": -14},
+    {"coordinates": [25.1063845, 121.5735185], "label": "大崙尾山", "detail": "山頂／原路折返", "anchor": "start", "dx": 12, "dy": -14}
+  ]
+}
