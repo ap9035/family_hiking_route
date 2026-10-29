@@ -1,0 +1,24 @@
+{
+  "title": "二子坪｜遊客服務站至平坦步道往返",
+  "description": "陽明山二子坪平坦步道短程往返地圖，路線沿OpenStreetMap已標繪步道，並非GPX導航軌跡。",
+  "subtitle": "二子坪遊客服務站 → 二子坪步道平坦段 → 原路折返",
+  "bbox": [121.5155, 25.1815, 121.5265, 25.1870],
+  "output": "二子坪實際地理底圖.svg",
+  "scale_bar_m": 200,
+  "route_source": "OpenStreetMap 二子坪步道圖徵；折返點為沿步道的保守建議點，非官方指定點",
+  "attribution": "© OpenStreetMap contributors（ODbL）",
+  "print_map": {"dtm_region": "臺北市", "center": [25.1832, 121.5208], "scale_denominator": 5000, "grid_spacing_m": 250, "map_width_mm": 277, "map_height_mm": 165, "top_margin_mm": 21, "output_prefix": "二子坪"},
+  "compass_map": {"dtm_regions": ["臺北市", "新北市"], "observer": [25.1832, 121.5208], "observer_label": "二子坪步道平坦段", "title": "二子坪｜周邊山峰方位判讀圖", "scale_denominator": 50000, "contour_interval_m": 20, "map_height_mm": 143, "grid_spacing_m": 1000, "max_peaks": 14, "output_prefix": "二子坪"},
+  "route_segments": [
+    {"way_id": 75947742},
+    {"way_id": 536620224, "end_coordinates": [25.1831292, 121.516994]},
+    {"way_id": 87103293, "end_coordinates": [25.1821, 121.5168]},
+    {"way_id": 87103293, "start_coordinates": [25.1821, 121.5168], "end_coordinates": [25.1831292, 121.516994], "reverse": true},
+    {"way_id": 536620224, "reverse": true},
+    {"way_id": 75947742, "reverse": true}
+  ],
+  "markers": [
+    {"coordinates": [25.1859167, 121.5252834], "label": "二子坪遊客服務站", "detail": "步道起點附近", "anchor": "end", "dx": -12, "dy": -14},
+    {"coordinates": [25.1821, 121.5168], "label": "建議折返點", "detail": "依體力及現場路況調整", "anchor": "start", "dx": 12, "dy": -14}
+  ]
+}
