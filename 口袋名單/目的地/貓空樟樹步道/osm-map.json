@@ -1,0 +1,22 @@
+{
+  "title": "貓空樟樹步道｜指南里入口往返",
+  "description": "貓空樟樹步道平緩段往返示意，沿OSM已標繪農村步道，請依現地標誌通行。",
+  "subtitle": "樟樹步道口 → 茶園、農村景觀段 → 原路折返",
+  "bbox": [121.5795, 24.9668, 121.5885, 24.9712],
+  "output": "貓空樟樹步道實際地理底圖.svg",
+  "scale_bar_m": 200,
+  "route_source": "OpenStreetMap 樟樹步道way 627244733、55739792；所示為圖徵所覆蓋路段，非GPX導航",
+  "attribution": "© OpenStreetMap contributors（ODbL）",
+  "print_map": {"dtm_region": "臺北市", "center": [24.969, 121.584], "scale_denominator": 5000, "grid_spacing_m": 250, "map_width_mm": 277, "map_height_mm": 165, "top_margin_mm": 21, "output_prefix": "貓空樟樹步道"},
+  "compass_map": {"dtm_regions": ["臺北市", "新北市"], "observer": [24.9672332, 121.5875069], "observer_label": "樟樹步道南端", "title": "貓空樟樹步道｜周邊山峰方位判讀圖", "scale_denominator": 50000, "contour_interval_m": 20, "map_height_mm": 143, "grid_spacing_m": 1000, "max_peaks": 14, "output_prefix": "貓空樟樹步道"},
+  "route_segments": [
+    {"way_id": 627244733},
+    {"way_id": 55739792},
+    {"way_id": 55739792, "reverse": true},
+    {"way_id": 627244733, "reverse": true}
+  ],
+  "markers": [
+    {"coordinates": [24.9707532, 121.5804927], "label": "樟樹步道口", "detail": "指南里側入口", "anchor": "end", "dx": -12, "dy": -14},
+    {"coordinates": [24.9672332, 121.5875069], "label": "樟樹步道南端", "detail": "依體力休息後原路折返", "anchor": "start", "dx": 12, "dy": -14}
+  ]
+}
